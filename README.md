@@ -21,9 +21,8 @@ This app was made possible by [Open Weather's API](https://openweathermap.org/cu
 
 1. Clone the repository
 2. `npm install`
-3. Run your local mongo via terminal:  `mongod`
-4. run `gulp` watch in your terminal
-5. go to `localhost:3000` to interact in your own device
+3. run `gulp` watch in your terminal
+4. go to `localhost:3000` to interact in your own device
 
 ## Authors
 
