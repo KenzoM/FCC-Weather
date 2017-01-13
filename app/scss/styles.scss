@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,400italic);
+main{
+  margin: 100px auto;
+}
+body{
+  background: #e2e2e2;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#iphone{
+  position: relative;
+  width: 58.6mm;
+  height: 123.8mm;
+  border: 3px solid black;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: black;
+  border: gray 3px solid;
+}
+
+#topButton{
+  width: 36px;
+  height: 4px;
+  background: grey;
+  position: relative;
+  top: -6px;
+  left: 162px;
+  border-radius: 2px 2px 0px 0px;
+}
+
+#sideButtons .button{
+  width: 5px;
+  height: 25px;
+  background: gray;
+  position: relative;
+  top: 40px;
+  right: 6px;
+  border-radius: 2px 0px 0px 2px;
+}
+
+#sideButtons .button:nth-child(2){
+  top: 55px;
+}
+#sideButtons .button:nth-child(3){
+  top: 75px;
+}
+
+#speaker{
+  width: 50px;
+  height: 10px;
+  background: grey;
+  position: relative;
+  top: -61px;
+  left: 85px;
+  border-radius: 4px
+}
+
+#screen{
+  width: 190px;
+  height: 360px;
+  background: #F5F4F0;
+  position: relative;
+  top: -45px;
+  left: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#home-button{
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: -39px;
+  left: 86px;
+  background: rgba(106, 106, 106, 0.91);
+  border-radius: 50%;
+  #square{
+    content: none;
+    width: 29px;
+    height: 29px;
+    position: relative;
+    border: 4px solid black;
+    top: 8px;
+    left: 8px;
+    border-radius: 5px;
+  }
+}
+
+.stacks{
+  width: 100%;
+  // border-bottom: 5px solid red;
+}
+
+#location{
+  // text-align: center;
+  font-size: 17px;
+  height: 10%;
+  padding-top: 4px;
+  background: #F3F2EE;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #193E4E;
+  border-bottom: #D2D1CD solid 1px;
+}
+
+#headline{
+  // background: skyblue;
+  height: 10%;
+  h2{
+    margin: 3px;
+    font-size: 22px;
+    color: #FF406F;
+  }
+}
+
+#temperature{
+  // background: salmon;
+  height: 10%;
+  display: table;
+  p{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #274D5A;
+  }
+}
+
+#icon{
+  // background: green;
+  height: 40%;
+  p{
+    font-size: 110px;
+    color: #00C3BF;
+  }
+  .wi{
+    display: block;
+  }
+}
+
+#info{
+  display: flex;
+  flex-wrap: wrap;
+  // background: yellow;
+  height: 30%;
+  #description{
+    width: 100%;
+    height: 40%;
+    display: table;
+    color: #274D5A;
+    margin-top: -10px;
+    p{
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 32px;
+    }
+  }
+  #more-info{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    border: 1px solid #D9D6D1;
+    border-radius: 8px;
+    margin-bottom: -7px;
+    .info-stacks{
+      width: 33.333%;
+      height: 100%;
+      color: #77848C;
+      background: #E4E3DF;
+      font-size: 20px;
+    }
+    #high-temperature{
+      display: table;
+      p{
+        display: table-cell;
+        vertical-align: middle;
+        // font-size: 25px;
+      }
+    }
+    #low-temperature{
+      display: table;
+      p{
+        display: table-cell;
+        vertical-align: middle;
+        // font-size: 25px;
+      }
+    }
+    #humidity{
+      display: table;
+      p{
+        display: table-cell;
+        vertical-align: middle;
+        // font-size: 25px;
+      }
+    }
+  }
+}
